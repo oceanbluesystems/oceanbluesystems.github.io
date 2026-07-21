@@ -1,0 +1,287 @@
+* {
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Segoe UI",Arial,sans-serif;
+
+}
+
+
+html {
+
+scroll-behavior:smooth;
+
+}
+
+
+
+body {
+
+background:#f5f9fc;
+color:#12263a;
+line-height:1.6;
+
+}
+
+
+
+header {
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+background:#003b5c;
+position:sticky;
+top:0;
+z-index:1000;
+
+}
+
+
+
+.logo {
+
+color:white;
+font-size:26px;
+font-weight:bold;
+
+}
+
+
+
+nav a {
+
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:600;
+
+}
+
+
+
+.hero {
+
+min-height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:40px;
+
+background:
+linear-gradient(
+rgba(0,59,92,.9),
+rgba(0,59,92,.9)
+);
+
+color:white;
+
+}
+
+
+
+.hero-content {
+
+max-width:900px;
+
+}
+
+
+
+.hero h1 {
+
+font-size:55px;
+margin-bottom:25px;
+
+}
+
+
+
+.motto {
+
+font-size:28px;
+font-weight:bold;
+color:#00b4d8;
+margin-bottom:25px;
+
+}
+
+
+
+button {
+
+background:#00a8e8;
+color:white;
+border:none;
+padding:16px 35px;
+border-radius:8px;
+font-size:18px;
+cursor:pointer;
+
+}
+
+
+
+section {
+
+padding:80px 10%;
+text-align:center;
+
+}
+
+
+
+h2 {
+
+font-size:38px;
+margin-bottom:25px;
+
+}
+
+
+
+.section-text {
+
+max-width:800px;
+margin:auto;
+
+}
+
+
+
+.cards {
+
+display:flex;
+gap:30px;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:40px;
+
+}
+
+
+
+.card {
+
+background:white;
+padding:30px;
+width:300px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+}
+
+
+
+.dark-section {
+
+background:#003b5c;
+color:white;
+
+}
+
+
+
+.dark-card {
+
+background:white;
+color:#12263a;
+
+}
+
+
+
+.industry-list {
+
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+
+
+.industry-list span {
+
+background:#003b5c;
+color:white;
+padding:15px 25px;
+border-radius:30px;
+
+}
+
+
+
+.assessment {
+
+background:#eef7fb;
+
+}
+
+
+
+.contact-form {
+
+max-width:600px;
+margin:auto;
+
+}
+
+
+
+input,
+textarea {
+
+width:100%;
+padding:15px;
+margin:10px;
+border-radius:8px;
+border:1px solid #ccc;
+
+}
+
+
+
+textarea {
+
+height:180px;
+
+}
+
+
+
+footer {
+
+background:#001f33;
+color:white;
+padding:40px;
+text-align:center;
+
+}
+
+
+
+
+@media(max-width:900px){
+
+
+nav {
+
+display:none;
+
+}
+
+
+
+.hero h1 {
+
+font-size:35px;
+
+}
+
+
+}
